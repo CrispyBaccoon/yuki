@@ -1,6 +1,6 @@
 # Changelog
 
-## [unreleased]
+## [0.2.0] - 2024-06-10
 
 ### Bug Fixes
 
@@ -34,6 +34,7 @@
 -  (``) Add nightly release scripts
 -  (``) Add stable release scripts
 -  (``) Update nightly changelog
+-  (`changelog`) Update nightly changelog
 
 ### Refactor
 
