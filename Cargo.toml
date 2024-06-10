@@ -7,6 +7,7 @@ edition = "2021"
 readme = "README.md"
 repository = "https://github.com/comfysage/saku"
 license = "MIT OR Apache-2.0"
+description = "a tiny distro-independent package manager written in Rust"
 
 [[bin]]
 name = "sk"
