@@ -8,6 +8,7 @@
 -  (``) Fix renamed github scope (`comfysage`)
 -  (`lib/util/filepath`) `get_relative` should not error when trimmed path is unchanged (root is unmatched)
 -  (`scripts`) Use builtin cliff flags
+-  (`scripts`) Fix changelog commits
 
 ### Development
 
@@ -32,6 +33,7 @@
 -  (`cargo`) Update `Cargo.lock`
 -  (``) Add nightly release scripts
 -  (``) Add stable release scripts
+-  (``) Update nightly changelog
 
 ### Refactor
 
