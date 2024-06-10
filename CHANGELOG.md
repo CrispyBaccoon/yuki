@@ -7,6 +7,7 @@
 -  (`lib/exec`) Use `fake-tty` crate display colors in command output
 -  (``) Fix renamed github scope (`comfysage`)
 -  (`lib/util/filepath`) `get_relative` should not error when trimmed path is unchanged (root is unmatched)
+-  (`scripts`) Use builtin cliff flags
 
 ### Development
 
@@ -18,6 +19,7 @@
 
 -  (`readme`) Update install url to use new github raw api
 -  (`lib/pkg/root`) Add inline docs
+-  (`changelog`) Update nightly changelog
 
 ### Features
 
@@ -28,6 +30,8 @@
 
 -  (`gtea`) Add gtea.toml
 -  (`cargo`) Update `Cargo.lock`
+-  (``) Add nightly release scripts
+-  (``) Add stable release scripts
 
 ### Refactor
 
