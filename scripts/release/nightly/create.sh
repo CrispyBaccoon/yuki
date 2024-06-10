@@ -4,6 +4,9 @@
 # nightly
 # ----------------------------------------------------------------------------
 ./scripts/release/nightly/changelog.sh > CHANGELOG.md
+git reset
+git add CHANGELOG.md
+git commit -m 'chore(changelog): update nightly changelog'
 git tag -f nightly
 git push --tags --force
 

@@ -7,6 +7,9 @@ n_version="$(git cliff --bumped-version | sed -e 's/^v//')"
 # bumped version
 # ----------------------------------------------------------------------------
 ./scripts/release/stable/changelog.sh > CHANGELOG.md
+git reset
+git add CHANGELOG.md
+git commit -m "chore(changelog): create $version changelog"
 git tag -f "$version"
 git push --tags --force
 
