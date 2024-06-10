@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-# show changes since the last nightly tag
+# show changes since the last version tag
 # ---------------------------------------
-git cliff mega..nightly
+git cliff -u
