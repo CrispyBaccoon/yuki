@@ -11,6 +11,8 @@ pub struct ConfigMain {
     pub frozen_update: bool,
     // cleanup on `saku install` (default: false)
     pub no_install_cleanup: bool,
+    // keep repo after install (default: false)
+    pub keep_repos: bool,
 }
 
 impl ConfigMain {
@@ -18,6 +20,7 @@ impl ConfigMain {
         Self {
             frozen_update: false,
             no_install_cleanup: false,
+            keep_repos: false,
         }
     }
 }

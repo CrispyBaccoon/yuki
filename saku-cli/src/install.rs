@@ -48,5 +48,11 @@ pub fn install_pkg(p: Pkg) -> Result<()> {
         exec::cleanup(&p.name, &p.group)?;
     }
 
+    if !config.main.keep_repos {
+        let repo_path = path::repo(&p.name);
+        debug!("removing cloned repo: {repo_path}");
+        std::fs::remove_dir_all(&repo_path)?;
+    }
+
     Ok(())
 }
