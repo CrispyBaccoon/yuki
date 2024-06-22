@@ -7,9 +7,9 @@ use crate::util::filepath;
 
 #[derive(Serialize, Deserialize)]
 pub struct ConfigMain {
-    // whether to update saku on `saku update`; true means no update
+    // update saku on `saku update` (default: false)
     pub frozen_update: bool,
-    // whether to cleanup on `saku install`; true means no cleanup
+    // cleanup on `saku install` (default: false)
     pub no_install_cleanup: bool,
 }
 
