@@ -13,3 +13,5 @@ Set TypingSpeed 0.1
 Set Theme GruvboxDark
 
 Require sk
+
+Sleep 200ms
