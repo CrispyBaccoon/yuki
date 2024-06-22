@@ -2,7 +2,7 @@
 
 :seedling: a tiny distro-independent package manager written in Rust.
 
-![saku-show](./assets/show-neovim.gif)
+![saku-show](./assets/asset.show-neovim.gif)
 
 # Saku
 
